@@ -7,6 +7,8 @@ import static com.company.Clock.*;
 
 public abstract class Main {
 
+
+
 //intalisation des niveaux de difficultee
     static int d = 11;  // niveau difficile
     //static int m = 8;   // "  "   moyen
@@ -61,10 +63,12 @@ public abstract class Main {
         }
     }
     public static void main(String[] args) {
+        Niveaux.niveaux(null);
         position = initialisation();
         affiche_jeu(position);
         // call Timer.demo
         Clock.timerDemo(10);
+
     }
 
 }
