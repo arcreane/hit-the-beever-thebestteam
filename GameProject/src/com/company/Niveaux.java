@@ -11,6 +11,7 @@ public class Niveaux {
 
 
         System.out.println("Choix du niveau");
+        System.out.println();
 
 
         System.out.println("- A : Niveau facile");
@@ -21,13 +22,16 @@ public class Niveaux {
         switch (choix) {
             case 'a':
                 System.out.println("Niveau facile");
+                System.out.println();
                 break;
             case 'b':
                 System.out.println("Niveau moyen");
+                System.out.println();
                 //lance le niveau moyen
                 break;
             case 'c':
                 System.out.println("Niveau difficile");
+                System.out.println();
                 //lance le niveau difficile
                 break;
             default:// si autre lettre
